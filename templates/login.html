@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-header">
+      <img src="anisoul logo.jpg">
+    </div>
+    <div class="login-form">
+      <form method="POST" action="http://localhost/validateLogin.php">
+        <input type="text" id="username" name="username" placeholder = "Enter your User ID" required>
+        <br>
+        <input type="password" id="password" name="password" placeholder = "Enter your Password" required>
+        <input type="submit" id="submit" value="Login" name="submit">
+      </form >
+      <div class="form-bottom">
+        <p >Forgot Password?</p>
+        <p>Sign up</p>
+      </div>
+  </div>
+</body>
+</html>

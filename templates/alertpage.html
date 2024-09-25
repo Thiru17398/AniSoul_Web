@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="alertpage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Page</title>
+    <style>
+        body {
+            background-color: #F7E8DC;
+            font-family: Arial, sans-serif;
+          }
+        
+          .navigation-bar{
+            border: 2px solid black;
+            padding: 5px;
+            display: flex;
+            width: max-content;
+        
+          }
+        
+          #profile-icon{
+            height:50px;
+          }
+        
+          #dashboard-icon{
+            margin-left: 530px;
+            height:50px;
+          }
+        
+          #anisoul{
+            margin-left: 400px;
+          }
+        
+          h2{
+            padding:10px;
+            margin:0px
+          }
+        
+          #alert-box{
+            margin: 30px;    
+          }
+        
+        
+        #alert-message{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            color: red;
+        }
+        #detection{
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid black;
+            margin:20px;
+            width: max-content;
+        }
+        
+        #detected-image{
+            border: 1px solid black;
+            margin: 10px;
+            height: 250px;
+            width: 400px;
+        }
+        
+        #approaching-message pre{
+        
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #approaching-message{
+            background-color:#CD7C44 ;
+            font-weight: 5
+            
+            00;
+            margin: 10px;
+            padding: 5px;
+            box-sizing: border-box;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation-bar">
+        <a href=""><img id="profile-icon" src="account_circle_FILL0_wght400_GRAD0_opsz48.png"></a>
+        <h2 id="name">KAMALESH</h2>
+        <h2 id="anisoul">ANI-SOUL</h2>
+        <a id="dashboard-icon" href=""><img  src="format_list_bulleted_FILL0_wght400_GRAD0_opsz48.png"></a>
+    </div>
+
+    <div id="alert-box">
+        <div id="alert-content">
+            <pre id="alert-message">ALERT !   MR.KAMALESH</pre>
+        </div>
+    </div>
+    <div id="detection">
+    <img id="detected-image" src="{{image}}" alt="detection image">
+    <div id="approaching-message">
+        <pre >Elephant is approaching near Mudumalai North (Your Farm) at 97.396 , 69.234
+            ( 11:34:56  26 Apr 2023  IST )
+        </pre>
+    </div>
+    <div>
+
+    <script src="alertpage.js">
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    background-color: #F7E8DC;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius:25px;
+  }
+  
+  .login-header {
+    text-align: center;
+  }
+  
+  .login-header h1 {
+    color: #333333;
+  }
+  
+  .login-form {
+    margin-top: 30px;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .login-form label {
+    margin-bottom: 5px;
+    color: #333333;
+  }
+  
+  
+  
+  .login-form input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-footer p {
+    color: #666666;
+  }
+  
+  .login-footer a {
+    color: #007bff;
+  }
+  #username{
+    border:1px solid white;
+    border-radius: 25px;
+    height: 40px;
+    background-color:#CD7C44 ;
+    color:white;
+    margin:5px;
+    text-align: center;
+    font-size: 16px;
+  }
+  #password{
+    background-color: #26355b;
+    border-radius:25px;
+    height: 40px;
+    margin:5px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  ::placeholder{
+    color:white;
+    opacity: 0.7;
+  }
+  
+  #submit{
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 100px;
+    align-self: center;
+  }
+  
+  .form-bottom{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  p , input{
+    font-size: 16px;
+    font-weight: 590;
+  }
+
+  #submit:hover{
+    background-color: black;
+  }
+
+  

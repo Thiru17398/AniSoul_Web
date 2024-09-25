@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="homepage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+    background-color: #F7E8DC;
+    font-family: Arial, sans-serif;
+  }
+
+  .navigation-bar{
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    width: max-content;
+
+  }
+
+  #profile-icon{
+    height:50px;
+  }
+
+  #dashboard-icon{
+    margin-left: 530px;
+    height:50px;
+  }
+
+  h2{
+    padding:10px;
+    margin:0px
+  }
+
+#welcome-box{
+    margin-top:50px;
+}
+#welcome{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+  #anisoul{
+    margin-left: 400px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  #features{
+    display: grid;
+    height: max-content;
+    margin-left:500px;
+  }
+
+  #mydevices , #device-connection , #change-location , #frequent-intrusion , #past-activities{
+    border: 2px solid black;
+    margin:25px;
+    width:300px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 25px;
+    box-sizing: border-box;
+    color:white;
+    font-weight: 600;
+  }
+
+
+  #mydevices , #device-connection {
+    background-color:#CD7C44 ;
+  }
+
+  #change-location , #frequent-intrusion , #past-activities{
+    background-color: #26355b; 
+  }
+
+  #features-content{
+    display: flex;
+  }
+
+  #owl{
+    margin:100px 50px;  
+  }
+    </style>
+</head>
+<body>
+    <div class="navigation-bar">
+        <a href=""><img id="profile-icon" src="account_circle_FILL0_wght400_GRAD0_opsz48.png"></a>
+        <h2 id="name">KAMALESH</h2>
+        <h2 id="anisoul">ANI-SOUL</h2>
+        <a id="dashboard-icon" href=""><img  src="format_list_bulleted_FILL0_wght400_GRAD0_opsz48.png"></a>
+    </div>
+
+    <div id="welcome-box">
+        <pre  id="welcome" >WELCOME   MR. KAMALESH ! !</pre>
+    </div>
+    <div id="features-content">
+    <div id="features">
+        <select  id="mydevices" selected="My Devices">
+        <option value="dev1">Device 1</option>
+        <option value="dev2">Device 2</option>
+        <option value="dev3">Device 3</option>
+        </select>
+        <a href="#" id="device-connection">Add Device Connection</a>
+        <a href="#" id="change-location">Change Your Location</a>
+        <a href="#" id="frequent-intrusion">Frequent Animal Intrusion</a>
+        <a href="#" id="past-activities">Past Animal Activities</a>
+    </div>
+    <img id="owl" src="{{image}}" height="200">
+    </div>
+</body>
+</html>
